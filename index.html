@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keone Sky</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #2a003f;
+      font-family: sans-serif;
+    }
+    canvas {
+      display: block;
+      margin: auto;
+      background-color: #4b0082;
+    }
+    #score {
+      color: white;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 20px;
+    }
+    #login {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: white;
+      color: #4b0082;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="score">Score: 0</div>
+  <div id="login">Warpcast Login</div>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
